@@ -14,6 +14,7 @@
 		9EAC8BBB1C7E512F00013CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC8BB91C7E512F00013CD9 /* LaunchScreen.storyboard */; };
 		9EAC8BC61C7E512F00013CD9 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC8BC51C7E512F00013CD9 /* CalculatorTests.swift */; };
 		9EAC8BD11C7E512F00013CD9 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC8BD01C7E512F00013CD9 /* CalculatorUITests.swift */; };
+		9EAC8BDF1C7EB3C500013CD9 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC8BDE1C7EB3C500013CD9 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9EAC8BCC1C7E512F00013CD9 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAC8BD01C7E512F00013CD9 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		9EAC8BD21C7E512F00013CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAC8BDE1C7EB3C500013CD9 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9EAC8BA41C7E512F00013CD9 = {
 			isa = PBXGroup;
 			children = (
+				9EAC8BDE1C7EB3C500013CD9 /* CalculatorBrain.swift */,
 				9EAC8BAF1C7E512F00013CD9 /* Calculator */,
 				9EAC8BC41C7E512F00013CD9 /* CalculatorTests */,
 				9EAC8BCF1C7E512F00013CD9 /* CalculatorUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAC8BDF1C7EB3C500013CD9 /* CalculatorBrain.swift in Sources */,
 				9EAC8BB31C7E512F00013CD9 /* ViewController.swift in Sources */,
 				9EAC8BB11C7E512F00013CD9 /* AppDelegate.swift in Sources */,
 			);
